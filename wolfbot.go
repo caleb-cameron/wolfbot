@@ -72,6 +72,7 @@ func (wb *Wolfbot) Stop() {
 
 // messageCreateHandler handles an incoming Discord message.
 func (wb *Wolfbot) messageCreateHandler(session *discordgo.Session, message *discordgo.MessageCreate) {
-	log.Println(message.ContentWithMentionsReplaced())
+	// TODO: This is only for demonstration, remove this so we're not logging every discord message...
+	log.Printf("%s: %s\n", message.Author.Username, message.ContentWithMentionsReplaced())
 
 }
