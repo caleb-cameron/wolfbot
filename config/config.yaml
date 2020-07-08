@@ -1,0 +1,6 @@
+dbHost: "localhost"
+dbPort: "3306"
+dbUser: "wolfbot"
+dbPass: "wolfpass"
+dbName: "wolfbot"
+discordToken: ""
